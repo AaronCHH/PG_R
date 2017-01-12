@@ -1,0 +1,33 @@
+# Data Type
+* Logical
+```{R}
+  v <- 2L
+  print(class(v))
+```
+* Numeric
+```{r}
+  v <- 23.5
+  print(class(v))
+```
+* Integer
+```{r}
+  v <- 2L
+  print(class(v))
+```
+* Complex
+```{r}
+
+  v <- 2+5i
+  print(class(v))
+```
+* Character
+```{r}
+  v <- "TRUE"
+  print(class(v))
+
+```
+* Raw
+```{r}
+  v <- charToRaw("Hello")
+  print(class(v))
+```
